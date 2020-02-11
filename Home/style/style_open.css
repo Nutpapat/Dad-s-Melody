@@ -1,0 +1,441 @@
+/* Main css */
+body {
+    background-image: url('../image/bg-00.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.title {
+    position: fixed;
+    width: 58%;
+    top: 27%;
+    left: 27%;
+}
+.butt {
+    position: fixed;
+    width: 15%;
+    top: 63%;
+    left: 45%;
+}
+.butt:hover {
+    transform: scale(1.3);
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+.pic1 {
+    position: fixed;
+    width: 43%;
+    top: 10%;
+    left: 0%;
+}
+.pic2 {
+    position: fixed;
+    width: 20%;
+    top: 60%;
+    left: 23%;
+}
+.pic3 {
+    position: fixed;
+    width: 25%;
+    top: 57%;
+    left: 63%;
+}
+.pic4 {
+    position: fixed;
+    width: 24%;
+    top: 74%;
+    left: 42%;
+}
+.pic5 {
+    position: fixed;
+    width: 5%;
+    top: 29%;
+    left: 45%;
+}
+.pic6 {
+    position: fixed;
+    width: 20%;
+    top: -18%;
+    left: 35%;
+}
+.pic7 {
+    position: fixed;
+    width: 7%;
+    top: 4%;
+    left: 36%;
+}
+.pic8 {
+    position: fixed;
+    width: 24%;
+    top: -26%;
+    left: -1%;
+}
+.pic9 {
+    position: fixed;
+    width: 39%;
+    top: -37%;
+    left: 69%;
+}
+.pic10 {
+    position: fixed;
+    width: 33%;
+    top: 63%;
+    left: -6%;
+}
+.pic11 {
+    position: fixed;
+    width: 7%;
+    top: 64%;
+    left: 3%;
+}
+.pic12 {
+    position: fixed;
+    width: 22%;
+    top: 53%;
+    left: 87%;
+}
+.pic13 {
+    position: fixed;
+    width: 25%;
+    top: 74%;
+    left: 82%;
+}
+.pic14 {
+    position: fixed;
+    width: 36%;
+    top: 0%;
+    left: 80%;
+}
+.cloud1 {
+    position: fixed;
+    width: 75%;
+    top: 64%;
+    left: 30%;
+    opacity: 1.7;
+    animation: cloud-move 30s var(--fn, linear) infinite;
+    will-change: transform;
+}
+@keyframes cloud-move {
+  from { transform: translateX(-110%) }
+  to { transform: translateX(110vw) }
+}
+.cloud2 {
+    position: fixed;
+    width: 80%;
+    top: -5%;
+    left: -20%;
+    opacity: 2.7;
+    animation: clouds-move 30s var(--fn, linear) infinite;
+    will-change: transform;
+}
+
+@keyframes clouds-move {
+  from { transform: translateX(110vw) }
+  to { transform: translateX(-110%) }
+}
+/* Responsive style */
+@media only screen and (max-width: 1200px) {
+.pic9 {
+    position: fixed;
+    width: 39%;
+    top: -33%;
+    left: 68%;
+}
+    
+}
+@media only screen and (max-width: 1100px) {
+.pic9 {
+    position: fixed;
+    width: 39%;
+    top: -29%;
+    left: 68%;
+}
+.pic6 {
+    position: fixed;
+    width: 21%;
+    top: -16%;
+    left: 35%;
+}
+.pic2 {
+    position: fixed;
+    width: 20%;
+    top: 50%;
+    left: 23%;
+}
+.pic3 {
+    position: fixed;
+    width: 25%;
+    top: 50%;
+    left: 63%;
+}    
+}
+
+/* medium */
+@media only screen and (max-width: 900px) {
+.pic8 {
+    position: fixed;
+    width: 24%;
+    top: -14%;
+    left: -1%;
+}
+.pic9 {
+    position: fixed;
+    width: 39%;
+    top: -22%;
+    left: 68%;
+}
+.pic6 {
+    position: fixed;
+    width: 21%;
+    top: -10%;
+    left: 35%;
+}
+.pic12 {
+    position: fixed;
+    width: 22%;
+    top: 64%;
+    left: 87%;
+}
+.pic10 {
+    position: fixed;
+    width: 33%;
+    top: 73%;
+    left: -6%;
+}
+.pic11 {
+    position: fixed;
+    width: 7%;
+    top: 70%;
+    left: 3%;
+}
+.title {
+    position: fixed;
+    width: 58%;
+    top: 34%;
+    left: 27%;
+}
+.pic14 {
+    position: fixed;
+    width: 36%;
+    top: 14%;
+    left: 80%;
+}
+.pic1 {
+    position: fixed;
+    width: 43%;
+    top: 22%;
+    left: 0%;
+}
+.pic5 {
+    position: fixed;
+    width: 5%;
+    top: 34%;
+    left: 45%;
+}    
+}
+@media screen and (max-width: 767px) {
+.pic8 {
+    position: fixed;
+    width: 32%;
+    top: -16%;
+    left: -1%;
+}
+.pic6 {
+    position: fixed;
+    width: 21%;
+    top: -6%;
+    left: 35%;
+}
+.pic9 {
+    position: fixed;
+    width: 39%;
+    top: -16%;
+    left: 68%;
+}
+.pic1 {
+    position: fixed;
+    width: 66%;
+    top: 32%;
+    left: -11%;
+}
+.pic10 {
+    position: fixed;
+    width: 33%;
+    top: 79%;
+    left: -6%;
+}
+.pic11 {
+    position: fixed;
+    width: 7%;
+    top: 78%;
+    left: 3%;
+}
+.pic4 {
+    position: fixed;
+    width: 24%;
+    top: 81%;
+    left: 42%;
+}
+.butt {
+    position: fixed;
+    width: 27%;
+    top: 53%;
+    left: 37%;
+}
+.pic2 {
+    position: fixed;
+    width: 29%;
+    top: 61%;
+    left: 23%;
+}
+.pic3 {
+    position: fixed;
+    width: 46%;
+    top: 46%;
+    left: 50%;
+}
+.pic14 {
+    position: fixed;
+    width: 41%;
+    top: 14%;
+    left: 72%;
+}
+.pic13 {
+    position: fixed;
+    width: 25%;
+    top: 79%;
+    left: 82%;
+}
+.pic12 {
+    position: fixed;
+    width: 27%;
+    top: 71%;
+    left: 82%;
+}    
+}
+/* Small */
+@media only screen and (max-width: 510px) {
+.title {
+    position: fixed;
+    width: 83%;
+    top: 30%;
+    left: 13%;
+}
+.pic13 {
+    position: fixed;
+    width: 32%;
+    top: 79%;
+    left: 77%;
+}
+.butt {
+    position: fixed;
+    width: 35%;
+    top: 52%;
+    left: 37%;
+}
+.pic1 {
+    position: fixed;
+    width: 79%;
+    top: 41%;
+    left: -17%;
+}
+.pic2 {
+    position: fixed;
+    width: 30%;
+    top: 70%;
+    left: 26%;
+}
+.pic3 {
+    position: fixed;
+    width: 49%;
+    top: 54%;
+    left: 46%;
+}
+.pic8 {
+    position: fixed;
+    width: 35%;
+    top: -4%;
+    left: -10%;
+}
+.pic6 {
+    position: fixed;
+    width: 25%;
+    top: -7%;
+    left: 30%;
+}
+.pic7 {
+    position: fixed;
+    width: 12%;
+    top: 3%;
+    left: 35%;
+}
+.pic14 {
+    position: fixed;
+    width: 72%;
+    top: 2%;
+    left: 63%;
+}
+.pic9 {
+    position: fixed;
+    width: 55%;
+    top: -11%;
+    left: 66%;
+}
+.pic5 {
+    position: fixed;
+    width: 8%;
+    top: 29%;
+    left: 39%;
+}
+.pic10 {
+    position: fixed;
+    width: 47%;
+    top: 79%;
+    left: -5%;
+}
+.pic11 {
+    position: fixed;
+    width: 10%;
+    top: 75%;
+    left: 3%;
+}
+.pic12 {
+    position: fixed;
+    width: 32%;
+    top: 74%;
+    left: 77%;
+}
+.pic4 {
+    position: fixed;
+    width: 32%;
+    top: 87%;
+    left: 38%;
+}
+.pic6 {
+    position: fixed;
+    width: 25%;
+    top: -5%;
+    left: 38%;
+}
+.cloud1 {
+    position: fixed;
+    width: 115%;
+    top: 77%;
+    left: 30%;
+    opacity: 1.7;
+    animation: cloud-move 30s var(--fn, linear) infinite;
+    will-change: transform;
+}
+.cloud2 {
+    position: fixed;
+    width: 107%;
+    top: -1%;
+    left: -20%;
+    opacity: 2.7;
+    animation: clouds-move 30s var(--fn, linear) infinite;
+    will-change: transform;
+}
+}
+

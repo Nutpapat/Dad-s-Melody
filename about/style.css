@@ -1,0 +1,1995 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chonburi|Maitree&display=swap');
+
+body {
+    /* background-image: url('./ประวัติ/ฉากประวัติ.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; */
+    background-color: #f8bdb8;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+}
+.top-logo {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: -2%;
+    width: 64%;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    left: 1.5%;
+}
+  .dropdown {
+    float: right;
+    top:10%;
+    width: 12%;
+    font-size: 10%;
+    
+  }
+  .dropdown .dropbtn {
+    font-size: 27px;  
+    border: none;
+    outline: none;
+    color: #71512e;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    opacity: 0.5;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:84%;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #71512e;
+    font-size: 20px;
+    padding: 20px 26px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+    * {
+    box-sizing: border-box;
+  }
+.bg-container {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.bg {
+    position: absolute;
+    top: -6em;
+    right: 3em;
+    width: 88em;
+    z-index: -9999999;
+}
+
+.bg-in {
+    position: absolute;
+    max-width: 79%;
+    margin-top: -2%;
+    margin-left: 8%;
+    z-index: 29;
+}
+
+.all-bg {
+    position: relative;
+    top: 20px;
+}
+
+.tra {
+    position: absolute;
+    max-width: 14%;
+    margin-top: 50%;
+    margin-left: 45%;
+    z-index: 29;
+}
+
+.prawat {
+    position: absolute;
+    max-width: 35%;
+    margin-top: 45%;
+    margin-left: 37%;
+    z-index: 29;
+}
+
+.allt {
+    position: absolute;
+    z-index: 29;
+    max-width: 45%;
+    height: 200rem;
+    margin-left: 28%;
+    margin-top: 63%;
+    /* overflow: scroll; */
+}
+
+.p-font {
+    font-family: 'Maitree', serif;
+    font-size: 22px;
+    line-height: 44px;
+    color: #71512e;
+}
+.ft {
+    /* margin-top: 18%; */
+    font-family: 'Maitree', serif;
+    font-size: 19px;
+    color: white;
+}
+
+
+.footer {
+    z-index: 999;
+    position: absolute;
+    left: -63%;
+    width: 224%;
+    background-color: #373B44;
+    color: white;
+    text-align: center;
+    height: 61px;
+    display: block;
+    text-align: center;
+    top: 143%;
+}
+.top-logo {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: -2%;
+    width: 64%;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    left: 1.5%;
+}
+  .dropdown {
+    float: right;
+    top:10%;
+    width: 12%;
+    font-size: 10%;
+    
+  }
+  .dropdown .dropbtn {
+    font-size: 27px;  
+    border: none;
+    outline: none;
+    color: #71512e;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Chonburi', cursive;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    opacity: 0.5;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:84%;
+    font-family: 'Maitree', serif;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #71512e;
+    font-size: 20px;
+    padding: 20px 26px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+    * {
+    box-sizing: border-box;
+  }
+ h1{
+   font-size: 0.75em;
+ }
+.te1 {
+    position: absolute;
+    /* width: 10%; */
+    left: 18%;
+    top: 17.5em;
+    z-index: 30;
+}
+.inte1 {
+    width: 12em;
+}
+
+.inte1:hover {
+    transform: scale(1.3);
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+.te2 {
+    position: absolute;
+    /* width: 10%; */
+    left: 28.5%;
+    top: 20.5em;
+    z-index: 30;
+}
+.inte2 {
+    width: 15em;
+}
+.inte2:hover {
+    transform: scale(1.3);
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+.te3 {
+    position: absolute;
+    /* width: 10%; */
+    left: 46%;
+    top: 16.5em;
+    z-index: 30;
+}
+.inte3 {
+    width: 10em;
+}
+.inte3:hover {
+    transform: scale(1.3);
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+.te4 {
+    position: absolute;
+    /* width: 10%; */
+    left: 60%;
+    top: 13.5em;
+    z-index: 30;
+}
+.inte4 {
+    width: 13em;
+}
+.inte4:hover {
+    transform: scale(1.3);
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+.te5 {
+    position: absolute;
+    /* width: 10%; */
+    left: 74%;
+    top: 12.5em;
+    z-index: 30;
+}
+.inte5 {
+    width: 10em;
+}
+.inte5:hover {
+    transform: scale(1.3);
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+.mt1 {
+    width: 76%;
+    margin-top: -2%;
+    margin-left: 10%;
+}
+.nm {
+    position: absolute;
+    margin-top: -53%;
+    left: 64%;
+    width: 35%;
+}
+.mt2 {
+    width: 59%;
+    margin-top: 13%;
+    margin-left: 11%;
+}
+.nm2 {
+    position: absolute;
+    margin-top: -5%;
+    left: 51%;
+    width: 31%;
+}
+.mt3 {
+    width: 62%;
+    margin-top: 6%;
+    margin-left: 16%;
+}
+.nm3 {
+    position: absolute;
+    margin-top: -7%;
+    left: 56%;
+    width: 31%;
+}
+.mt4 {
+    width: 82%;
+    margin-top: -3%;
+    margin-left: 1%;
+}
+.nm4 {
+    position: absolute;
+    margin-top: -7%;
+    left: 53%;
+    width: 30%;
+}
+.mt5 {
+    width: 145%;
+    margin-top: -4%;
+    margin-left: -29%;
+}
+.nm5 {
+    position: absolute;
+    margin-top: -2%;
+    left: 50%;
+    width: 35%;
+}
+@keyframes title{
+	from{transform: rotate(-5deg);}
+    to{transform: rotate(10deg);}
+    }
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.f1 {
+    position: absolute;
+    margin-top: 50%;
+    left: 8%;
+    z-index: 99;
+}
+.inf1 {
+    width: 63%;
+}
+.f2 {
+    position: absolute;
+    margin-top: 116%;
+    left: 3%;
+    z-index: 99;
+}
+.inf2 {
+    width: 96%;
+}
+.f3 {
+    position: absolute;
+    margin-top: 191%;
+    left: 9%;
+    z-index: 99;
+}
+.inf3 {
+    width: 63%;
+}
+.f4 {
+    position: absolute;
+    margin-top: 271%;
+    left: 2%;
+    z-index: 99;
+}
+.inf4 {
+    width: 24em;
+}
+.f5 {
+    position: absolute;
+    margin-top: 330%;
+    left: 5%;
+    z-index: 99;
+}
+.inf5 {
+    width: 17em;
+}
+.f6 {
+    position: absolute;
+    margin-top: 106%;
+    left: 73%;
+    z-index: 99;
+}
+.inf6 {
+    width: 20em;
+}
+.f7 {
+    position: absolute;
+    margin-top: 158%;
+    left: 70%;
+    z-index: 99;
+}
+.inf7 {
+    width: 26em;
+}
+.f8 {
+    position: absolute;
+    margin-top: 215%;
+    left: 72%;
+    z-index: 99;
+}
+.inf8 {
+    width: 26em;
+}
+.f9 {
+    position: absolute;
+    margin-top: 292%;
+    left: 72%;
+    z-index: 99;
+}
+.inf9 {
+    width: 27em;
+}
+
+
+@media only screen and (max-width: 1440px) {
+body {
+    overflow-x: hidden;
+
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 100%;
+    }
+    
+    .menu {
+        max-width: 100%;
+        height: 38px;
+        padding: 30px 40px;
+    }
+    
+    .bg-container {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 0;
+    }
+    
+    .bg {
+        position: absolute;
+        top: -6em;
+        right: 3em;
+        width: 88em;
+        z-index: -9999999;
+    }
+    
+    .bg-in {
+        position: absolute;
+        max-width: 79%;
+        margin-top: -2%;
+        margin-left: 8%;
+        z-index: 29;
+    }
+    
+    .all-bg {
+        position: relative;
+        top: 20px;
+    }
+    
+    .tra {
+        position: absolute;
+        max-width: 15%;
+        margin-top: 52%;
+        margin-left: 45%;
+        z-index: 29;
+    }
+    
+    .prawat {
+        position: absolute;
+        max-width: 35%;
+        margin-top: 46%;
+        margin-left: 37%;
+        z-index: 29;
+    }
+    
+    .allt {
+        position: absolute;
+        z-index: 29;
+        max-width: 45%;
+        height: 200rem;
+        margin-left: 25%;
+        margin-top: 63%;
+        /* overflow: scroll; */
+    }
+    
+    .p-font {
+        font-size: 22px;
+        line-height: 44px;
+        color: #71512e;
+    }
+    
+    .footer {
+        z-index: 999;
+        position: absolute;
+        left: -63%;
+        width: 233%;
+        background-color: #373B44;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: block;
+        text-align: center;
+        top: 143%;
+    }
+    .te1 {
+        position: absolute;
+        /* width: 10%; */
+        left: 18%;
+        top: 17.5em;
+        z-index: 30;
+    }
+    .inte1 {
+        width: 12em;
+    }
+    
+    .inte1:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te2 {
+        position: absolute;
+        /* width: 10%; */
+        left: 28.5%;
+        top: 20.5em;
+        z-index: 30;
+    }
+    .inte2 {
+        width: 15em;
+    }
+    .inte2:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te3 {
+        position: absolute;
+        /* width: 10%; */
+        left: 46%;
+        top: 16.5em;
+        z-index: 30;
+    }
+    .inte3 {
+        width: 10em;
+    }
+    .inte3:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te4 {
+        position: absolute;
+        /* width: 10%; */
+        left: 60%;
+        top: 13.5em;
+        z-index: 30;
+    }
+    .inte4 {
+        width: 13em;
+    }
+    .inte4:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te5 {
+        position: absolute;
+        /* width: 10%; */
+        left: 74%;
+        top: 12.5em;
+        z-index: 30;
+    }
+    .inte5 {
+        width: 10em;
+    }
+    .inte5:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .mt1 {
+        width: 76%;
+        margin-top: -2%;
+        margin-left: 10%;
+    }
+    .nm {
+        position: absolute;
+        margin-top: -1%;
+        left: 64%;
+        width: 35%;
+    }
+    .mt2 {
+        width: 59%;
+        margin-top: 13%;
+        margin-left: 11%;
+    }
+    .nm2 {
+        position: absolute;
+        margin-top: -5%;
+        left: 51%;
+        width: 31%;
+    }
+    .mt3 {
+        width: 62%;
+        margin-top: 6%;
+        margin-left: 16%;
+    }
+    .nm3 {
+        position: absolute;
+        margin-top: -7%;
+        left: 56%;
+        width: 31%;
+    }
+    .mt4 {
+        width: 82%;
+        margin-top: -3%;
+        margin-left: 1%;
+    }
+    .nm4 {
+        position: absolute;
+        margin-top: -7%;
+        left: 53%;
+        width: 30%;
+    }
+    .mt5 {
+        width: 145%;
+        margin-top: -4%;
+        margin-left: -29%;
+    }
+    .nm5 {
+        position: absolute;
+        margin-top: -2%;
+        left: 50%;
+        width: 35%;
+    }
+    .f1 {
+        position: absolute;
+        margin-top: 52%;
+        left: -2%;
+        z-index: 99;
+    }
+    .inf1 {
+        width: 74%;
+    }
+    
+    .f2 {
+        position: absolute;
+        margin-top: 121%;
+        left: -4%;
+        z-index: 99;
+    }
+    .inf2 {
+        width: 96%;
+    }
+    .f3 {
+        position: absolute;
+        margin-top: 193%;
+        left: 3%;
+        z-index: 99;
+    }
+    .inf3 {
+        width: 63%;
+    }
+    .f4 {
+        position: absolute;
+        margin-top: 266%;
+        left: -3%;
+        z-index: 99;
+    }
+    .inf4 {
+        width: 24em;
+    }
+    .f5 {
+        position: absolute;
+        margin-top: 338%;
+        left: -1%;
+        z-index: 99;
+    }
+    .inf5 {
+        width: 20em;
+    }
+    .f6 {
+        position: absolute;
+        margin-top: 106%;
+        left: 73%;
+        z-index: 99;
+    }
+    .inf6 {
+        width: 20em;
+    }
+    .f7 {
+        position: absolute;
+        margin-top: 161%;
+        left: 68%;
+        z-index: 99;
+    }
+    .inf7 {
+        width: 26em;
+    }
+    .f8 {
+        position: absolute;
+        margin-top: 215%;
+        left: 72%;
+        z-index: 99;
+    }
+    .inf8 {
+        width: 26em;
+    }
+    .f9 {
+        position: absolute;
+        margin-top: 292%;
+        left: 72%;
+        z-index: 99;
+    }
+    .inf9 {
+        width: 27em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+body {
+    overflow-x: hidden;
+}
+    .logo {
+        width: 100%;
+    }
+    
+    .menu {
+        max-width: 100%;
+        height: 38px;
+        padding: 30px 40px;
+    }
+    
+    .bg-container {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 0;
+    }
+    
+    .bg {
+        position: absolute;
+        top: -2em;
+        right: -15em;
+        width: 79em;
+        z-index: -9999999;
+    }
+    
+    .bg-in {
+        position: absolute;
+        max-width: 150%;
+        margin-top: 4%;
+        margin-left: 9%;
+        z-index: 5;
+    }
+    
+    .all-bg {
+        position: relative;
+        top: 20px;
+    }
+    
+    .tra {
+        position: absolute;
+        max-width: 21%;
+        margin-top: 71%;
+        margin-left: 46%;
+        z-index: 29;
+    }
+    
+    .prawat {
+        position: absolute;
+        max-width: 45%;
+        margin-top: 64%;
+        margin-left: 34%;
+        z-index: 29;
+    }
+    
+    .allt {
+        position: absolute;
+        z-index: 29;
+        max-width: 70%;
+        height: 200rem;
+        margin-left: 23%;
+        margin-top: 88%;
+        /* overflow: scroll; */
+    }
+    
+    .p-font {
+        font-size: 22px;
+        line-height: 44px;
+        color: #71512e;
+    }
+    
+    
+    .footer {
+        z-index: 999;
+        position: absolute;
+        left: -41%;
+        width: 187%;
+        background-color: #373B44;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: block;
+        text-align: center;
+        top: 128%;
+    }
+    .te1 {
+        position: absolute;
+        /* width: 10%; */
+        left: 16%;
+        top: 19.5em;
+        z-index: 30;
+    }
+    .inte1 {
+        width: 12em;
+    }
+    
+    .inte1:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te2 {
+        position: absolute;
+        /* width: 10%; */
+        left: 29.5%;
+        top: 21.5em;
+        z-index: 30;
+    }
+    .inte2 {
+        width: 15em;
+    }
+    .inte2:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te3 {
+        position: absolute;
+        /* width: 10%; */
+        left: 51%;
+        top: 17.5em;
+        z-index: 30;
+    }
+    .inte3 {
+        width: 10em;
+    }
+    .inte3:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te4 {
+        position: absolute;
+        /* width: 10%; */
+        left: 68%;
+        top: 15.5em;
+        z-index: 30;
+    }
+    .inte4 {
+        width: 13em;
+    }
+    .inte4:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te5 {
+        position: absolute;
+        /* width: 10%; */
+        left: 93%;
+        top: 15.5em;
+        z-index: 30;
+    }
+    .inte5 {
+        width: 8em;
+    }
+    .inte5:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .mt1 {
+        width: 64%;
+        margin-top: -2%;
+        margin-left: 10%;
+    }
+    .nm {
+        position: absolute;
+        margin-top: -1%;
+        left: 56%;
+        width: 35%;
+    }
+    .mt2 {
+        width: 47%;
+        margin-top: 13%;
+        margin-left: 26%;
+    }
+    .nm2 {
+        position: absolute;
+        margin-top: -5%;
+        left: 51%;
+        width: 31%;
+    }
+    .mt3 {
+        width: 48%;
+        margin-top: 6%;
+        margin-left: 27%;
+    }
+    .nm3 {
+        position: absolute;
+        margin-top: -7%;
+        left: 56%;
+        width: 31%;
+    }
+    .mt4 {
+        width: 69%;
+        margin-top: -3%;
+        margin-left: 12%;
+    }
+    .nm4 {
+        position: absolute;
+        margin-top: -7%;
+        left: 56%;
+        width: 26%;
+    }
+    .mt5 {
+        width: 128%;
+        margin-top: -9%;
+        margin-left: -18%;
+    }
+    .nm5 {
+        position: absolute;
+        margin-top: -5%;
+        left: 54%;
+        width: 30%;
+    }
+    .f1 {
+        position: absolute;
+        margin-top: 69%;
+        left: -4%;
+        z-index: 99;
+    }
+    .inf1 {
+        width: 74%;
+    }
+    
+    .f2 {
+        position: absolute;
+        margin-top: 160%;
+        left: -7%;
+        z-index: 99;
+    }
+    .inf2 {
+        width: 96%;
+    }
+    .f3 {
+        position: absolute;
+        margin-top: 257%;
+        left: 1%;
+        z-index: 99;
+    }
+    .inf3 {
+        width: 63%;
+    }
+    .f4 {
+        position: absolute;
+        margin-top: 353%;
+        left: -7%;
+        z-index: 99;
+    }
+    .inf4 {
+        width: 24em;
+    }
+    .f5 {
+        position: absolute;
+        margin-top: 439%;
+        left: -5%;
+        z-index: 99;
+    }
+    .inf5 {
+        width: 20em;
+    }
+    .f6 {
+        position: absolute;
+        margin-top: 144%;
+        left: 86%;
+        z-index: 99;
+    }
+    .inf6 {
+        width: 20em;
+    }
+    .f7 {
+        position: absolute;
+        margin-top: 216%;
+        left: 82%;
+        z-index: 99;
+    }
+    .inf7 {
+        width: 26em;
+    }
+    .f8 {
+        position: absolute;
+        margin-top: 297%;
+        left: 84%;
+        z-index: 99;
+    }
+    .inf8 {
+        width: 26em;
+    }
+    .f9 {
+        position: absolute;
+        margin-top: 389%;
+        left: 83%;
+       
+        z-index: 99;
+    }
+    .inf9 {
+        width: 27em;
+    }
+}
+@media only screen and (max-width: 768px) {
+body{
+    overflow-x: hidden;
+}
+    .header {
+        display: flex;
+        justify-content: space-between;
+        left: 20;
+    }
+    .logo {
+        width: 100%;
+    }
+    
+    .menu {
+        max-width: 100%;
+        height: 38px;
+        padding: 30px 40px;
+    }
+    
+    .bg-container {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 0;
+    }
+    
+    .bg {
+        position: absolute;
+        top: 3em;
+        right: -19em;
+        width: 64em;
+        z-index: -9999999;
+    }
+    
+    .bg-in {
+        position: absolute;
+        /* max-width: 202%; */
+        margin-top: 14%;
+        margin-left: 96px;
+        z-index: 5;
+        width: 114%;
+    }
+    
+    .all-bg {
+        position: relative;
+        top: 20px;
+    }
+    
+    .tra {
+        position: absolute;
+        max-width: 25%;
+        margin-top: 83%;
+        margin-left: 64%;
+        z-index: 29;
+    }
+    .prawat {
+        position: absolute;
+        max-width: 50%;
+        margin-top: 80%;
+        margin-left: 50%;
+        z-index: 29;
+    }
+    
+    .allt {
+        position: absolute;
+        z-index: 29;
+        max-width: 74%;
+        height: 200rem;
+        margin-left: 45%;
+        margin-top: 98%;
+        /* overflow: scroll; */
+    }
+    .p-font {
+        font-size: 16px;
+        line-height: 39px;
+        color: #71512e;
+    }
+    
+    .footer {
+        z-index: 999;
+        position: absolute;
+        left: -82%;
+        width: 260%;
+        background-color: #373B44;
+        color: white;
+        text-align: center;
+        height: 95px;
+        display: block;
+        text-align: center;
+        top: 109%;
+    }
+    .te1 {
+        position: absolute;
+        /* width: 10%; */
+        left: 24%;
+        top: 21.5em;
+        z-index: 30;
+    }
+    .inte1 {
+        width: 9em;
+    }
+    
+    .inte1:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te2 {
+        position: absolute;
+        /* width: 10%; */
+        left: 42.5%;
+        top: 23em;
+        z-index: 30;
+    }
+    .inte2 {
+        width: 13em;
+    }
+    .inte2:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te3 {
+        position: absolute;
+        /* width: 10%; */
+        left: 67%;
+        top: 20em;
+        z-index: 30;
+    }
+    .inte3 {
+        width: 8em;
+    }
+    .inte3:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te4 {
+        position: absolute;
+        /* width: 10%; */
+        left: 78%;
+        top: 17.5em;
+        z-index: 30;
+    }
+    .inte4 {
+        width: 9em;
+    }
+    .inte4:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te5 {
+        position: absolute;
+        /* width: 10%; */
+        left: 107%;
+        top: 17.5em;
+        z-index: 30;
+    }
+    .inte5 {
+        width: 7em;
+    }
+    .inte5:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .mt1 {
+        width: 58%;
+        margin-top: -2%;
+        margin-left: 10%;
+    }
+    .nm {
+        position: absolute;
+        margin-top:  -38%;
+
+        left: 56%;
+        width: 30%;
+    }
+    .mt2 {
+        width: 47%;
+        margin-top: 6%;
+        margin-left: 23%;
+    }
+    .nm2 {
+        position: absolute;
+        margin-top: -10%;
+        left: 51%;
+        width: 31%;
+    }
+    .mt3 {
+        width: 45%;
+        margin-top: 6%;
+        margin-left: 27%;
+    }
+    .nm3 {
+        position: absolute;
+        margin-top: -9%;
+        left: 56%;
+        width: 31%;
+    }
+    .mt4 {
+        width: 63%;
+        margin-top: -3%;
+        margin-left: 12%;
+    }
+    .nm4 {
+        position: absolute;
+        margin-top: -4%;
+        left: 54%;
+        width: 24%;
+    }
+    
+    .mt5 {
+        width: 117%;
+        margin-top: -11%;
+        margin-left: -10%;
+    }
+    .nm5 {
+        position: absolute;
+        margin-top: -10%;
+        left: 54%;
+        width: 30%;
+    }
+    .f1 {
+        position: absolute;
+        margin-top: 74%;
+        left: -4%;
+        z-index: 99;
+    }
+    .inf1 {
+        width: 62%;
+    }
+    
+    .f2 {
+        position: absolute;
+        margin-top: 170%;
+        left: -10%;
+
+        z-index: 99;
+    }
+    .inf2 {
+        width: 94%;
+    }
+    .f3 {
+        position: absolute;
+        margin-top: 277%;
+        left: 3%;
+        z-index: 99;
+    }
+    .inf3 {
+        width: 60%;
+    }
+    .f4 {
+        position: absolute;
+        margin-top: 353%;
+        left: -7%;
+        z-index: 99;
+    }
+    .inf4 {
+        width: 22em;
+    }
+    .f5 {
+        position: absolute;
+        margin-top: 480%;
+        left: -5%;
+        z-index: 99;
+    }
+    .inf5 {
+        width: 18em;
+    }
+    .f6 {
+        position: absolute;
+        margin-top: 162%;
+        left: 92%;
+        z-index: 99;
+    }
+    .inf6 {
+        width: 20em;
+    }
+    .f7 {
+        position: absolute;
+        margin-top: 216%;
+        left: 82%;
+        z-index: 99;
+    }
+    .inf7 {
+        width: 26em;
+    }
+    .f8 {
+        position: absolute;
+        margin-top: 307%;
+        left: 89%;
+        z-index: 99;
+    }
+    .inf8 {
+        width: 26em;
+    }
+    .f9 {
+        position: absolute;
+        margin-top: 412%;
+        left: 95%;
+        z-index: 99;
+    }
+    .inf9 {
+        width: 23em;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        left: 20;
+    }
+    .logo {
+        width: 100%;
+    }
+    
+    .menu {
+        max-width: 100%;
+        height: 38px;
+        padding: 30px 40px;
+    }
+    
+    .bg-container {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 0;
+    }
+    
+    .bg {
+        position: absolute;
+        top: 1em;
+        right: -32em;
+        width: 52em;
+        z-index: -9999999;
+        height: 251em;
+    }
+    .bg-in {
+        position: absolute;
+        max-width: 163%;
+        margin-top: 21%;
+        margin-left: 155px;
+        z-index: 5;
+        width: 90em;
+    }
+    
+    .all-bg {
+        position: relative;
+        top: 20px;
+    }
+    
+    .tra {
+        position: absolute;
+        max-width: 40%;
+        margin-top: 145%;
+        margin-left: 96%;
+        z-index: 29;
+    }
+    .prawat {
+        position: absolute;
+        max-width: 87%;
+        margin-top: 118%;
+        margin-left: 73%;
+        z-index: 29;
+    }
+    
+    .allt {
+        position: absolute;
+        z-index: 29;
+        max-width: 116%;
+        height: 200rem;
+        right: -77%;
+        margin-top: 168%;
+        /* overflow: scroll; */
+    }
+    .p-font {
+        font-size: 16px;
+        line-height: 40px;
+        color: #71512e;
+    }
+    
+    .footer {
+        z-index: 999;
+        position: absolute;
+        left: -49%;
+        width: 226%;
+        background-color: #373B44;
+        color: white;
+        text-align: center;
+        height: 79px;
+        display: block;
+        text-align: center;
+        top: 111%;
+    }
+    .te1 {
+        position: absolute;
+        /* width: 10%; */
+        left: 25%;
+        top: 12em;
+        z-index: 30;
+    }
+    .inte1 {
+        width: 11em;
+    }
+    
+    .inte1:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te2 {
+        position: absolute;
+        /* width: 10%; */
+        left: 64.5%;
+        top: 14em;
+        z-index: 30;
+    }
+    .inte2 {
+        width: 11em;
+    }
+    .inte2:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te3 {
+        position: absolute;
+        /* width: 10%; */
+        left: 110%;
+        top: 11em;
+        z-index: 30;
+    }
+    .inte3 {
+        width: 8em;
+    }
+    .inte3:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te4 {
+        position: absolute;
+        /* width: 10%; */
+        left: 141%;
+        top: 8.5em;
+        z-index: 30;
+    }
+    .inte4 {
+        width: 12em;
+    }
+    .inte4:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te5 {
+        position: absolute;
+        /* width: 10%; */
+        left: 183%;
+        top: 8.5em;
+        z-index: 30;
+    }
+    .inte5 {
+        width: 8em;
+    }
+    .inte5:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .mt1 {
+        width: 58%;
+        margin-top: -2%;
+        margin-left: 10%;
+    }
+    .nm {
+        position: absolute;
+        margin-top: -1%;
+        left: 56%;
+        width: 30%;
+    }
+    .mt2 {
+        width: 47%;
+        margin-top: 6%;
+        margin-left: 23%;
+    }
+    .nm2 {
+        position: absolute;
+        margin-top: -10%;
+        left: 51%;
+        width: 31%;
+    }
+    .mt3 {
+        width: 45%;
+        margin-top: 6%;
+        margin-left: 27%;
+    }
+    .nm3 {
+        position: absolute;
+        margin-top: -9%;
+        left: 56%;
+        width: 31%;
+    }
+    .mt4 {
+        width: 63%;
+        margin-top: -3%;
+        margin-left: 12%;
+    }
+    .nm4 {
+        position: absolute;
+        margin-top: -4%;
+        left: 54%;
+        width: 24%;
+    }
+    
+    .mt5 {
+        width: 117%;
+        margin-top: -11%;
+        margin-left: -10%;
+    }
+    .nm5 {
+        position: absolute;
+        margin-top: -10%;
+        left: 54%;
+        width: 30%;
+    }
+    .f1 {
+        position: absolute;
+        margin-top: 109%;
+        left: -24%;
+        z-index: 99;
+    }
+    .inf1 {
+        width: 55%;
+    }
+    
+    .f2 {
+        position: absolute;
+        margin-top: 334%;
+        left: -1%;
+        z-index: 99;
+    }
+    .inf2 {
+        width: 60%;
+    }
+    .f3 {
+        position: absolute;
+        margin-top: 512%;
+        left: 11%;
+        z-index: 99;
+    }
+    .inf3 {
+        width: 39%;
+    }
+    .f4 {
+        position: absolute;
+        margin-top: 633%;
+        left: -16%;
+        z-index: 99;
+    }
+    .inf4 {
+        width: 22em;
+    }
+    .f5 {
+        position: absolute;
+        margin-top: 859%;
+        left: -8%;
+        z-index: 99;
+    }
+    .inf5 {
+        width: 18em;
+    }
+    .f6 {
+        position: absolute;
+        margin-top: 297%;
+        left: 174%;
+        z-index: 99;
+    }
+    .inf6 {
+        width: 20em;
+    }
+    .f7 {
+        position: absolute;
+        margin-top: 428%;
+        left: 164%;
+        z-index: 99;
+    }
+    .inf7 {
+        width: 24em;
+    }
+    .f8 {
+        position: absolute;
+        margin-top: 558%;
+        left: 164%;
+        z-index: 99;
+    }
+    .inf8 {
+        width: 26em;
+    }
+    .f9 {
+        position: absolute;
+        margin-top: 752%;
+        left: 173%;
+        z-index: 99;
+    }
+    .inf9 {
+        width: 23em;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        left: 20;
+    }
+    .logo {
+        width: 100%;
+    }
+    
+    .menu {
+        max-width: 100%;
+        height: 38px;
+        padding: 30px 40px;
+    }
+    
+    .bg-container {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 0;
+    }
+    
+    .bg {
+        position: absolute;
+        top: 1em;
+        right: -32em;
+        width: 52em;
+        z-index: -9999999;
+        height: 256em;
+    }
+    .bg-in {
+        position: absolute;
+        max-width: 163%;
+        margin-top: 21%;
+        margin-left: 155px;
+        z-index: 5;
+        width: 90em;
+    }
+    
+    .all-bg {
+        position: relative;
+        top: 20px;
+    }
+    
+    .tra {
+        position: absolute;
+        max-width: 40%;
+        margin-top: 130%;
+        margin-left: 96%;
+        z-index: 29;
+    }
+    .prawat {
+        position: absolute;
+        max-width: 87%;
+        margin-top: 118%;
+        margin-left: 73%;
+        z-index: 29;
+    }
+    
+    .allt {
+        position: absolute;
+        z-index: 29;
+        max-width: 116%;
+        height: 200rem;
+        right: -77%;
+        margin-top: 192%;
+        /* overflow: scroll; */
+    }
+    .p-font {
+        font-size: 16px;
+        line-height: 40px;
+        color: #71512e;
+    }
+    
+    .footer {
+        z-index: 999;
+        position: absolute;
+        left: -54%;
+        width: 238%;
+        background-color: #373B44;
+        color: white;
+        text-align: center;
+        height: 79px;
+        display: block;
+        text-align: center;
+        top: 111%;
+    }
+    .te1 {
+        position: absolute;
+        /* width: 10%; */
+        left: 25%;
+        top: 12em;
+        z-index: 30;
+    }
+    .inte1 {
+        width: 11em;
+    }
+    
+    .inte1:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te2 {
+        position: absolute;
+        /* width: 10%; */
+        left: 64.5%;
+        top: 14em;
+        z-index: 30;
+    }
+    .inte2 {
+        width: 11em;
+    }
+    .inte2:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te3 {
+        position: absolute;
+        /* width: 10%; */
+        left: 110%;
+        top: 11em;
+        z-index: 30;
+    }
+    .inte3 {
+        width: 8em;
+    }
+    .inte3:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te4 {
+        position: absolute;
+        /* width: 10%; */
+        left: 141%;
+        top: 8.5em;
+        z-index: 30;
+    }
+    .inte4 {
+        width: 12em;
+    }
+    .inte4:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .te5 {
+        position: absolute;
+        /* width: 10%; */
+        left: 183%;
+        top: 8.5em;
+        z-index: 30;
+    }
+    .inte5 {
+        width: 8em;
+    }
+    .inte5:hover {
+        transform: scale(1.3);
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .mt1 {
+        width: 58%;
+        margin-top: -2%;
+        margin-left: 10%;
+    }
+    .nm {
+        position: absolute;
+        margin-top: -1%;
+        left: 56%;
+        width: 30%;
+    }
+    .mt2 {
+        width: 47%;
+        margin-top: 6%;
+        margin-left: 23%;
+    }
+    .nm2 {
+        position: absolute;
+        margin-top: -10%;
+        left: 51%;
+        width: 31%;
+    }
+    .mt3 {
+        width: 45%;
+        margin-top: 6%;
+        margin-left: 27%;
+    }
+    .nm3 {
+        position: absolute;
+        margin-top: -9%;
+        left: 56%;
+        width: 31%;
+    }
+    .mt4 {
+        width: 63%;
+        margin-top: -3%;
+        margin-left: 12%;
+    }
+    .nm4 {
+        position: absolute;
+        margin-top: -4%;
+        left: 54%;
+        width: 24%;
+    }
+    
+    .mt5 {
+        width: 117%;
+        margin-top: -11%;
+        margin-left: -10%;
+    }
+    .nm5 {
+        position: absolute;
+        margin-top: -10%;
+        left: 54%;
+        width: 30%;
+    }
+    .f1 {
+        position: absolute;
+        margin-top: 109%;
+        left: -24%;
+        z-index: 99;
+    }
+    .inf1 {
+        width: 55%;
+    }
+    
+    .f2 {
+        position: absolute;
+        margin-top: 334%;
+        left: -1%;
+        z-index: 99;
+    }
+    .inf2 {
+        width: 60%;
+    }
+    .f3 {
+        position: absolute;
+        margin-top: 512%;
+        left: 11%;
+        z-index: 99;
+    }
+    .inf3 {
+        width: 39%;
+    }
+    .f4 {
+        position: absolute;
+        margin-top: 633%;
+        left: -16%;
+        z-index: 99;
+    }
+    .inf4 {
+        width: 22em;
+    }
+    .f5 {
+        position: absolute;
+        margin-top: 859%;
+        left: -8%;
+        z-index: 99;
+    }
+    .inf5 {
+        width: 18em;
+    }
+    .f6 {
+        position: absolute;
+        margin-top: 297%;
+        left: 174%;
+        z-index: 99;
+    }
+    .inf6 {
+        width: 20em;
+    }
+    .f7 {
+        position: absolute;
+        margin-top: 428%;
+        left: 164%;
+        z-index: 99;
+    }
+    .inf7 {
+        width: 24em;
+    }
+    .f8 {
+        position: absolute;
+        margin-top: 558%;
+        left: 164%;
+        z-index: 99;
+    }
+    .inf8 {
+        width: 26em;
+    }
+    .f9 {
+        position: absolute;
+        margin-top: 752%;
+        left: 173%;
+        z-index: 99;
+    }
+    .inf9 {
+        width: 23em;
+    }
+}
+
